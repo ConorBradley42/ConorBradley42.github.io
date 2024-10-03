@@ -91,10 +91,12 @@
         align-items: center;
         margin: 20px;
         flex-wrap: wrap;
+        width: 100%;
       }
       .video {
-        width: 445px;
-        height: 250px;
+        width: 100%; /* Set width to 100% to make it responsive */
+        max-width: 600px;
+        height: auto;
         margin: 0px;
       }
       .video-section iframe {
@@ -104,6 +106,9 @@
         display: flex;
         flex-direction: column;
         margin-left: 0px;
+        width: 100%;
+        max-width: 400px;
+        margin-top: 10px;
       }
       .button {
         background-color: #297d84;
